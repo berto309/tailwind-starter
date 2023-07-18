@@ -5,20 +5,26 @@ Boilerplate for designing website using TailwindCSS
 ## Requirements
 
 This project requires:
- - Node JS. [Download](https://nodejs.org){:target="_blank" rel="noopener"}
- - VS Code or any editor of choice [Download VS Code](https://code.visualstudio.com){:target="_blank" rel="noopener"}
- - Tailwind CSS Intellisense for VS Code (required if using VS Code). [Download](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss){:target="_blank" rel="noopener"}
+ - Node JS. [Download NodeJS](https://nodejs.org)
+ - VS Code or any editor of choice [Download VS Code](https://code.visualstudio.com)
+ - Tailwind CSS Intellisense for VS Code (required if using VS Code). [Download TailwindCSS Intellisense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss
+ - Live Server (required if using VS Code. Download from VS Code extension.)  [Download Live Server]([https://code.visualstudio.com](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
+
+# Install tailwind dependencies
+```shell
+npm install
+```
 
 # Setting up your development setup
 ```shell
 npm run dev
 ```
 
-# Setting up your development setup
+# Optimize CSS for production
 ```shell
 npm run prod
 ```
 
-### Checkout package.json to see scripts
+### Refer to package.json for scripts
 
 
