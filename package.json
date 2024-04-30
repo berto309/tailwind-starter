@@ -1,0 +1,21 @@
+{
+  "name": "tailwind-starter",
+  "version": "1.0.0",
+  "description": "Boilerplate for desinging web pages with TailwindCSS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./tailwind.css -o ./resources/css/styles.css -w --verbose",
+    "prod": "npx tailwindcss -o ./resources/css/styles.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.7",
+    "autoprefixer": "^10.4.7",
+    "cross-env": "^7.0.3",
+    "cssnano": "^5.1.7",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.4.3"
+  }
+}
